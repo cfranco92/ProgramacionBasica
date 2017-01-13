@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tu peso en un lugar donde pesas menos</title>
+  </head>
+  <body>
+    <h1>Tu peso en otro planeta</h1>
+    <p>En la tierra pesas distinto que en Marte o jupiter</p>
+    <script>
+      var usuario = prompt("¿Cuál es tu peso?"); <!--recibe un string-->
+      var planeta = parseInt(prompt("Elige tu planeta.\n 1 es Marte, 2 es Jupiter"));
+      var peso_flotante = parseFloat(usuario);
+      var peso = parseInt(usuario);
+      var g_tierra = 9.8;
+      var g_marte = 3.7;
+      var g_jupiter = 24.8;
+      var peso_final;
+      var nombre;
+      if(planeta == 1){
+        peso_final = peso * g_marte/g_tierra;
+        nombre = "Marte";
+      }else if(planeta == 2){
+        peso_final = peso * g_jupiter / g_tierra;
+        nombre = "Jupiter";
+      }else{
+        alert("Sea serio");
+      }
+      peso_final = parseInt(peso_final); <!--convierte dato a un número entero-->
+      document.write("Tu peso en " + nombre + " es <strong>" + peso_final + " kilos</strong>");
+    </script>
+  </body>
+</html>
