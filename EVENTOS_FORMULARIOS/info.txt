@@ -1,0 +1,12 @@
+Eventos y Formularios en HTML y JavaScript
+--------------------------------------------------------------------------------
+Los eventos son funciones que suceden cuando algo ocurre, sucesos cómo un click,
+pulsar una tecla, colocar el mouse sobre un botón, etc.
+
+Creemos un programa que reciba la cantidad de líneas con las que queremos crear
+nuestra imagen.
+
+Recuerda:
+Cuando queremos enviar información a un servidor podemos usar un formularios
+en JavaScript puedes agregar un manejador de eventos con
+element.addEventListener('event', function).
