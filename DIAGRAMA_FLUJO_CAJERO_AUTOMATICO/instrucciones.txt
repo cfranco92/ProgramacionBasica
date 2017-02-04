@@ -1,0 +1,8 @@
+Diagrama de Flujo del Cajero Automático
+--------------------------------------------------------------------------------
+Vamos a crear un algoritmo para un cajero cajero automático.
+Nuestro objetivo es entregar la menor cantidad de billetes posibles a partir de
+la cantidad que se solicite.
+
+Recuerda:
+Intenta probar tu algoritmo para varias escenarios posibles.
